@@ -41,11 +41,11 @@ public class Simpletron
 		{
 			System.out.printf ("%d %s  ", punteroMemoria, "?" );
 			instruccionEnviada = input.nextInt ();
-			if ( instruccionEnviada != -99999 ) 
+			if ( instruccionEnviada != -9999 ) 
 				memoria [ punteroMemoria ] = instruccionEnviada;
 			punteroMemoria++;
 			
-		} while ( instruccionEnviada != -99999 );
+		} while ( instruccionEnviada != -9999 );
 		
 	        System.out.printf ("\n%s%s", "*** Program loading completed ***\n", 
 				"*** Program excecution begins  ***\n");	
